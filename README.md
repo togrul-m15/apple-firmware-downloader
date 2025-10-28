@@ -2,10 +2,7 @@
 
 A Python script to automatically download the latest iOS firmware (IPSW) for different iPhone models and versions using requests and BeautifulSoup. It shows download progress, speed, and estimated time remaining in the terminal with colored output.
 
-## Planned Updates
-
-- Possible future support for macOS firmware downloads
-- Build a GUI for easier navigation and usage
+## Planned Update
 - Implement in-app device restore functionality
 
 
@@ -38,9 +35,8 @@ cd path/to/this/project
 ```
 
 ## Example Output
-Download of iPhone14,5_Restore.ipsw: 500 MB out of 1500 MB
+Download of iPhone14,5_Restore.ipsw: 500 MB out of 1500 MB [x%]
 MB/s: 25
-Time left: 40s
 
 ## Notes
 - Requires internet connection
@@ -75,6 +71,10 @@ Time left: 40s
 | iPhone 16 Pro     | 16           | pro     |  Apple A18 Pro
 | iPhone 16 Pro Max | 16           | pro max |  Apple A18 Pro
 | iPhone 16e        | 16           | e       |  Apple A18
+| iPhone 17         | 17           | base    |  Apple A19
+| iPhone 17 Air     | 17           | air     |  Apple A19 Pro
+| iPhone 17 Pro     | 17           | pro     |  Apple A19 Pro
+| iPhone 17 Pro Max | 17           | pro max |  Apple A19 Pro
 
 
 ## How to choose ipads
